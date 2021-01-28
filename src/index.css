@@ -99,3 +99,25 @@ li {
 .not-completed {
   text-decoration: none;
 }
+
+.selected {
+  border-bottom: solid 5px red;
+}
+
+.not-selected {
+  text-decoration: none;
+}
+
+.categories {
+  display: flex;
+  justify-content: space-around;
+}
+
+.categories li {
+  transition: ease-in-out .2s;
+}
+
+.list-display article {
+  transition: ease-in-out .2s;
+  
+}
